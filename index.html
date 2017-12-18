@@ -1,6 +1,7 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
 
@@ -13,7 +14,25 @@
 </head>
 
 <body>
-  
+  <div>
+    <label style="width: 200px;">板长:</label>
+    <input id="boardLength" type="number" />
+    <label>毫米</label>
+  </div>
+  <br/>
+  <div>
+    <label>L1:&nbsp;&nbsp;&nbsp;</label>
+    <input id="l1Length" type="number" />
+    <label>毫米</label>
+  </div>
+  <br>
+  <button id="submit">提交</button>
+  <br />
+  <br />
+  <div id="board" style="width: 100vw">
+  </div>
+
   <script src="index.js"></script>
 </body>
+
 </html>
